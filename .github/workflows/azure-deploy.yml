@@ -19,5 +19,5 @@ jobs:
           azure_static_web_apps_api_token: 9e91c57b722f89edaccff20179a0ac767bff438ed40479485adcec3906868bc402-85e0123b-582d-4ed3-98a0-09394997f1bd01020260dc40e010
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "."
+          app_location: "paper-trail-website"
           skip_app_build: true
